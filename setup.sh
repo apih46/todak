@@ -28,8 +28,7 @@ echo -e "$green.........................................................."$NC
 echo ''
 echo -e "$Lyellow                       Tunggu 6 Saat!"$NC
 echo -e "$green.........................................................."$NC
-sleep 6
-clear
+sleep 2
 if [ "${EUID}" -ne 0 ]; then
 		echo "You need to run this script as root"
 		exit 1
@@ -44,13 +43,12 @@ NC='\e[0m'
 #IZIN SCRIPT
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m"
-clear
 # Valid Script
 VALIDITY() {
     today=$(date -d "0 days" +"%Y-%m-%d")
     Exp1=$(curl -sS https://raw.githubusercontent.com/apih46/ip/main/list | grep $IPVPS | awk '{print $3}')
     if [[ $today < $Exp1 ]]; then
-        echo -e "\e[32mTahniah! Anda Dibenarkan menggunakan AUTOSCRIPT PAKYAVPN..\e[0m"
+        echo -e "\e[32mTahniah! Anda Dibenarkan menggunakan AUTOSCRIPT todak..\e[0m"
         sleep 5
     else
         echo -e "\e[31mYOUR SCRIPT HAS EXPIRED!\e[0m"
