@@ -1,8 +1,5 @@
 # Script TODAK Websocket
 
- <h2 align="center">AutoScript VPN <img src="https://img.shields.io/badge/Version-senip_1.4-blue.svg"></h2>
-
-## ⏩ DM ME IF YOU WANT USE THIS SCRIPT... ⏪
 ## JUST DM ME FOR REG IP http://t.me/info_android9
 
 <h2 align="center"> Supported Linux Distribution</h2>
