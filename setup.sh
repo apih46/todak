@@ -28,7 +28,7 @@ echo -e "$green.........................................................."$NC
 echo ''
 echo -e "$Lyellow                       Tunggu 6 Saat!"$NC
 echo -e "$green.........................................................."$NC
-sleep 6
+sleep 2
 clear
 if [ "${EUID}" -ne 0 ]; then
 		echo "You need to run this script as root"
