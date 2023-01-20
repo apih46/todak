@@ -85,7 +85,6 @@ clear
 echo -e "\e[32mloading...\e[0m"
 clear
 mkdir /var/lib/premium-script;
-default_email=$( curl https://raw.githubusercontent.com/${GitUser}/email/main/default.conf )
 clear
 #Nama penyedia script
 echo -e "\e[1;32m════════════════════════════════════════════════════════════\e[0m"
