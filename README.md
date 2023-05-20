@@ -95,14 +95,3 @@ systemctl restart wg-quick@wg0
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## ⏩ BUY ME A COFFEE IF YOU LIKE THIS SCRIPT... ⏪
-
-<b>
-<br>
-<p align="center">
-<img src="https://user-images.githubusercontent.com/89685787/213615495-bf99dc3a-8e9d-48cc-a1e9-2a3691c2cd88.jpg" width="300" title="Autoscript-Lite">
-<b>
-
-
-
-<
